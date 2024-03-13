@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner Sc=new Scanner(System.in);
+		int i,j;
+		int n=Sc.nextInt();
+		int m=Sc.nextInt();
+		for(i=1;i<=n;i++){
+		    for(j=1;j<=m;j++){
+		        if(i==n||i==1||j==1||j==m)
+		        {
+		            System.out.print("*");
+		        }
+		        else{
+		            System.out.print(" ");
+		        }
+		    }
+		System.out.println();
+		}
+	}
+}
+
